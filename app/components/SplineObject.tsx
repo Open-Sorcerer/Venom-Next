@@ -24,7 +24,7 @@ const SplineObj = (props: { scene: string; }) => {
   }, []);
   return (
     <Suspense fallback={<>Loading...</>}>
-      {isDesktop&&<Spline className="" scene={props.scene} />}
+      {isDesktop && <Spline className="" scene={props.scene} />}
     </Suspense>
   );
 };
